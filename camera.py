@@ -14,14 +14,14 @@ from .camerastream.camera_opencv import camera
 global start_time
 
 config = {
-  'apiKey': "AIzaSyDv-C6wf8u9CKylG65tzuuTdjjG9ksIRWY",
-  'authDomain': "sif-rack.firebaseapp.com",
-  'databaseURL': "https://sif-rack-default-rtdb.asia-southeast1.firebasedatabase.app",
-  'projectId': "sif-rack",
-  'storageBucket': "sif-rack.appspot.com",
-  'messagingSenderId': "284017095380",
-  'appId': "1:284017095380:web:39d748a9a3f057cfa94141",
-  'measurementId': "G-CGY4XDENHG"
+  'apiKey': "TO-BE-CONFIGURED",
+  'authDomain': "TO-BE-CONFIGURED",
+  'databaseURL': "TO-BE-CONFIGURED",
+  'projectId': "TO-BE-CONFIGURED",
+  'storageBucket': "TO-BE-CONFIGURED",
+  'messagingSenderId': "TO-BE-CONFIGURED",
+  'appId': "TO-BE-CONFIGURED",
+  'measurementId': "TO-BE-CONFIGURED"
 }
 
 firebase = pyrebase.initialize_app(config)
@@ -29,7 +29,7 @@ db = firebase.database()
 storage = firebase.storage()
 
 auth = firebase.auth()
-user = auth.sign_in_with_email_and_password("test@gmail.com", "123456789")
+user = auth.sign_in_with_email_and_password("TO-BE-CONFIGURED", "TO-BE-CONFIGURED")
 
 @camerastream.route('/camera')
 def index():
