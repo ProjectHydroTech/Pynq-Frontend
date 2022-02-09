@@ -71,7 +71,9 @@ https://github.com/ProjectHydroTech/Leaf-Detection-AI
 # Limitations
 ALl the code in this repo is still currently in WIP state with many buggy features. Heres a list of known issues
 > Trying to code more than 2 cameras to be shown at once keeps resulting in code returning empty frames from camera 3 onwards, crashing the code.
+
 > Refreshing webpage when on camera feed section makes it stop working until code is restarted
+
 > Unable to save taken images locally, only way to get images is to upload to firebase.
 
 -Marcus
