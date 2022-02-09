@@ -1,1 +1,0 @@
-contains screenshots from frontend
